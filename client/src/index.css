@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Semantic UI customization */
+.ui.selectable.table tbody tr:hover, .ui.table tbody tr td.selectable:hover {
+  cursor: pointer
+}
